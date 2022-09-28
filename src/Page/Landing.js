@@ -7,8 +7,19 @@ import "./Landing.css";
 const Landing = () => {
   const [codingData, setCodingData] = useState([]);
 
+  //async function
+  const fetchingData = async () => {
+    const url = `products.json`;
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+    setCodingData(data);
+  };
+
   //fetching data
-  useEffect(() => {}, []);
+  useEffect(() => {
+    fetchingData();
+  }, []);
 
   return (
     <div>
