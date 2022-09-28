@@ -1,9 +1,10 @@
 import React from "react";
+import Card from "./Card";
 
-const CardList = () => {
+const CardList = ({ data }) => {
   return (
     <div>
-      <h1>Choose Your Solving Plan</h1>
+      <Card data={data} />
     </div>
   );
 };
