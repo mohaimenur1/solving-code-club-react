@@ -28,9 +28,11 @@ const Landing = () => {
       <div className="main-section container">
         <div className="row">
           <div className="col-lg-6">
-            {codingData.map((data) => (
-              <CardList data={data} />
-            ))}
+            <div className="row">
+              {codingData.map((data) => (
+                <CardList data={data} />
+              ))}
+            </div>
           </div>
           <div className="col-lg-6">
             <SideBar />

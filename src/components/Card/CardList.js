@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const CardList = ({ data }) => {
   return (
-    <div>
+    <div className="col-lg-4">
       <Card data={data} />
     </div>
   );
