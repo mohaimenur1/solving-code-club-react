@@ -3,7 +3,7 @@ import React from "react";
 const CardList = () => {
   return (
     <div>
-      <h1>card list</h1>
+      <h1>Choose Your Solving Plan</h1>
     </div>
   );
 };
