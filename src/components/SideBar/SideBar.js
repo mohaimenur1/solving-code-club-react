@@ -1,9 +1,11 @@
 import React from "react";
+import Profile from "../Profile/Profile";
 
 const SideBar = () => {
   return (
-    <div>
-      <h1>side bar</h1>
+    <div className="container">
+      <h1 className="text-center">SideBar</h1>
+      <Profile />
     </div>
   );
 };

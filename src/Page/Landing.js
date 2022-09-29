@@ -25,17 +25,17 @@ const Landing = () => {
     <div>
       <Header />
       <div className="underline mt-5"></div>
-      <div className="main-section container">
+      <div className="main-section">
         <div className="row">
           <div className="col-lg-6 mt-5">
-            <h1 className="text-center">Choose Your Best Practise</h1>
-            <div className="row">
+            <h1 className="text-center fw-normal">Choose Your Best Practise</h1>
+            <div className="row container">
               {codingData.map((data) => (
                 <CardList data={data} />
               ))}
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-5">
             <SideBar />
           </div>
         </div>
