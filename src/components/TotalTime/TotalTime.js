@@ -26,11 +26,11 @@ const TotalTime = ({ timeRequired, timeBreak }) => {
         <h3 className="text-center">Exercise Time</h3>
         <div className="first mb-3">
           <h6>Coding Time</h6>
-          <div className="card bg-light p-3">{initialTime} seconds</div>
+          <div className="card bg-light p-3">{initialTime} minutes</div>
         </div>
         <div className="second">
           <h6>Break Time</h6>
-          <div className="card bg-light p-3">{timeBreak}s</div>
+          <div className="card bg-light p-3">{timeBreak} hours</div>
         </div>
         <button onClick={notify} className="mt-3 btn btn-primary">
           Check Activity
