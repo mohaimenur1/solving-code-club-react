@@ -1,0 +1,14 @@
+.prof-pic {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
+.background-clr {
+  background: rgb(64, 150, 189);
+  background: linear-gradient(
+    90deg,
+    rgba(64, 152, 193, 0.355) 2%,
+    rgba(79, 221, 150, 0.4766281512605042) 73%
+  );
+}
