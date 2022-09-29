@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CardList from "../components/Card/CardList";
 import Header from "../components/Header/Header";
+import Question from "../components/Question/Question";
 import SideBar from "../components/SideBar/SideBar";
 import "./Landing.css";
 
@@ -44,6 +45,9 @@ const Landing = () => {
                   addExerciseTime={addExerciseTime}
                 />
               ))}
+            </div>
+            <div>
+              <Question />
             </div>
           </div>
           <div className="col-lg-6 mt-5">
