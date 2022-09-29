@@ -1,7 +1,7 @@
 import React from "react";
 import "./TotalTime.css";
 
-const TotalTime = ({ timeRequired }) => {
+const TotalTime = ({ timeRequired, timeBreak }) => {
   console.log(timeRequired);
   let initialTime = 0;
   // console.log(time);
@@ -26,7 +26,7 @@ const TotalTime = ({ timeRequired }) => {
         </div>
         <div className="second">
           <h6>Break Time</h6>
-          <div className="card bg-light p-3">15s</div>
+          <div className="card bg-light p-3">{timeBreak}s</div>
         </div>
         <button className="mt-3 btn btn-primary">Check Activity</button>
       </div>
