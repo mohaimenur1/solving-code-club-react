@@ -46,12 +46,13 @@ const Landing = () => {
                 />
               ))}
             </div>
-            <div>
-              <Question />
-            </div>
           </div>
           <div className="col-lg-6 mt-5">
             <SideBar timeRequired={timeRequired} />
+          </div>
+          <div className="mt-5 col-lg-12">
+            <h2 className="text-center">Questions And Answers</h2>
+            <Question />
           </div>
         </div>
       </div>

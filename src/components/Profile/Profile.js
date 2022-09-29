@@ -14,6 +14,7 @@ const Profile = () => {
             alt="..."
           />
           <h5 className="card-title text-center mt-3">Md.Mohiminiur</h5>
+          <strong className="text-center">JavaScript Developer</strong>
           <div className="achievement d-flex justify-content-evenly mt-3 bg-light p-5">
             <div className="first achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2">
               <h6>Problem Solving</h6>

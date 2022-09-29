@@ -1,4 +1,6 @@
 import React from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "./TotalTime.css";
 
 const TotalTime = ({ timeRequired, timeBreak }) => {
@@ -16,6 +18,8 @@ const TotalTime = ({ timeRequired, timeBreak }) => {
     console.log(typeof initialTime);
   }
 
+  const notify = () => toast("Activity Successfully Done!😊");
+
   return (
     <div className="mt-5">
       <div className="card p-4">
@@ -28,7 +32,10 @@ const TotalTime = ({ timeRequired, timeBreak }) => {
           <h6>Break Time</h6>
           <div className="card bg-light p-3">{timeBreak}s</div>
         </div>
-        <button className="mt-3 btn btn-primary">Check Activity</button>
+        <button onClick={notify} className="mt-3 btn btn-primary">
+          Check Activity
+        </button>
+        <ToastContainer />
       </div>
     </div>
   );
