@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-const Card = ({ data }) => {
+const Card = ({ data, addExerciseTime }) => {
   const { name, details, timerequired, img } = data;
   //   console.log(name, details, timerequired, img);
   return (
@@ -16,7 +16,12 @@ const Card = ({ data }) => {
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{details}</p>
           <p className="card-text fw-bold">Given Time: {timerequired}</p>
-          <button className="btn btn-primary fw-bold">Join Now</button>
+          <button
+            onClick={() => addExerciseTime(timerequired)}
+            className="btn btn-primary fw-bold"
+          >
+            Join Now
+          </button>
         </div>
       </div>
     </div>

@@ -3,13 +3,13 @@ import Profile from "../Profile/Profile";
 import TimeBreak from "../TimeBreak/TimeBreak";
 import TotalTime from "../TotalTime/TotalTime";
 
-const SideBar = () => {
+const SideBar = ({ timeRequired }) => {
   return (
-    <div className="container">
+    <div className="">
       <h1 className="text-center">SideBar</h1>
       <Profile />
       <TimeBreak />
-      <TotalTime />
+      <TotalTime timeRequired={timeRequired} />
     </div>
   );
 };

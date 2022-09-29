@@ -4,6 +4,12 @@
   width: 150px;
 }
 
+.achievement-circle {
+  border-radius: 50%;
+  height: 107px;
+  width: 107px;
+}
+
 .background-clr {
   background: rgb(64, 150, 189);
   background: linear-gradient(
@@ -17,7 +23,7 @@
   background: rgb(64, 140, 189);
   background: linear-gradient(
     90deg,
-    rgba(64, 139, 189, 0.577) 2%,
-    rgba(79, 221, 150, 0.298) 81%
+    rgba(64, 140, 189, 0.8435749299719888) 2%,
+    rgba(79, 221, 150, 0.6671043417366946) 81%
   );
 }

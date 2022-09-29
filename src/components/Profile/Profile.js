@@ -15,15 +15,15 @@ const Profile = () => {
           />
           <h5 className="card-title text-center mt-3">Md.Mohiminiur</h5>
           <div className="achievement d-flex justify-content-evenly mt-3 bg-light p-5">
-            <div className="first prof-pic p-3 background-clr d-flex flex-column justify-content-center shadow">
+            <div className="first achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2">
               <h6>Problem Solving</h6>
               <strong>46</strong>
             </div>
-            <div className="second prof-pic p-3 background-clr d-flex flex-column justify-content-center shadow">
-              <h6>Achievement</h6>
+            <div className="second achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2">
+              <h6>Reward</h6>
               <strong>Ultra Solver</strong>
             </div>
-            <div className="third prof-pic p-3 background-clr d-flex flex-column justify-content-center shadow">
+            <div className="third achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2">
               <h6>Profile Update</h6>
               <strong>60%</strong>
             </div>
