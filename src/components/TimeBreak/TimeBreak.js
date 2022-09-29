@@ -10,31 +10,32 @@ const TimeBreak = ({
   handleChangeTwenty,
   handleChangeThirty,
   handleChangeFourty,
+  handleChange,
 }) => {
   return (
     <div className="card d-flex flex-column mt-5">
       <h3 className="text-center">Time Break</h3>
       <div className="achievement d-flex justify-content-evenly mt-3 bg-light p-5 text-center">
         <div
-          onClick={handleChangeTen}
+          onClick={() => handleChange(ten)}
           className="first achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2"
         >
           <strong>{ten}s</strong>
         </div>
         <div
-          onClick={handleChangeTwenty}
+          onClick={() => handleChange(twenty)}
           className="second achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2"
         >
           <strong>{twenty}s</strong>
         </div>
         <div
-          onClick={handleChangeThirty}
+          onClick={() => handleChange(thirty)}
           className="third achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2"
         >
           <strong>{thirty}s</strong>
         </div>
         <div
-          onClick={handleChangeFourty}
+          onClick={() => handleChange(fourty)}
           className="third achievement-circle p-3 background-clr d-flex flex-column justify-content-center shadow me-2"
         >
           <strong>{fourty}s</strong>
